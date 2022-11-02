@@ -25,7 +25,7 @@ local function make_platform(plat)
     mingw32 = { "WINVER=0x0600", "_WIN32_WINNT=0x0600" },
   }
   local libraries = {
-    linux = { "rt" },
+    linux = { },
     unix = { },
     macosx = { },
     win32 = { },
