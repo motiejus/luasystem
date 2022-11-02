@@ -1,7 +1,7 @@
 package = 'luasystem'
 version = 'scm-0'
 source = {
-  url = "git://github.com/o-lim/luasystem",
+  url = "git://github.com/motiejus/luasystem",
   branch = "master"
 }
 description = {

@@ -1,8 +1,8 @@
 package = 'luasystem'
-version = '0.2.1-0'
+version = '0.2.2-0'
 source = {
-  url = "https://github.com/o-lim/luasystem/archive/v0.2.1.tar.gz",
-  dir = "luasystem-0.2.1"
+  url = "https://github.com/motiejus/luasystem/archive/v0.2.2.tar.gz",
+  dir = "luasystem-0.2.2"
 }
 description = {
   summary = 'Platform independent system calls for Lua.',
@@ -25,7 +25,7 @@ local function make_platform(plat)
     mingw32 = { "WINVER=0x0600", "_WIN32_WINNT=0x0600" },
   }
   local libraries = {
-    linux = { "rt" },
+    linux = { },
     unix = { },
     macosx = { },
     win32 = { },
